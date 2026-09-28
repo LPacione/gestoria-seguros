@@ -20,14 +20,14 @@ const services = [
   {
     number: '01',
     icon: FileCheck2,
-    title: 'Gestoría del automotor',
+    title: 'Gestoría',
     text: 'Resuelvo tus trámites de forma clara, ágil y segura, sin vueltas ni sorpresas.',
-    items: ['Transferencias', 'Informes de dominio', 'Altas y bajas', 'Cédulas y patentes'],
+    items: ['Inscripciones iniciales', 'Transferencias', 'Informes de dominio', 'Infracciones', 'Prendas', 'Altas y bajas impositivas'],
   },
   {
     number: '02',
     icon: ShieldCheck,
-    title: 'Seguros a tu medida',
+    title: 'Seguros',
     text: 'Te ayudo a encontrar la cobertura que realmente necesitás para cuidar lo que importa.',
     items: ['Auto y moto', 'Hogar', 'Comercio', 'Responsabilidad civil'],
   },
@@ -36,7 +36,7 @@ const services = [
     icon: Sparkles,
     title: 'Asesoramiento personalizado',
     text: 'Te acompaño antes, durante y después de cada gestión para que tomes buenas decisiones.',
-    items: ['Consultas sin cargo', 'Seguimiento online', 'Atención humana', 'Respuestas rápidas'],
+    items: ['Seguimiento online', 'Atención personalizada', 'Respuestas rápidas'],
   },
 ]
 
@@ -52,7 +52,7 @@ export default function Page() {
 
   return (
     <main className="site-shell">
-      <div className="topbar"><span>Atención personalizada en Darregueira y alrededores</span><span className="topbar-contact"><Phone size={13} /> 2923 449859</span></div>
+      <div className="topbar"><span>Trámites en todo el país - Automotores, Motovehículos y Maquinarias</span><span className="topbar-contact"><Phone size={13} /> 2923 449859</span></div>
       <header className="nav-wrap">
         <nav className="nav container" aria-label="Navegación principal">
           <a href="#inicio" className="brand" aria-label="Maria Belen Alvez inicio"><span className="brand-mark">MA</span><span><strong>Maria Belen Alvez</strong><small>Gestoría & Seguros</small></span></a>
@@ -64,8 +64,8 @@ export default function Page() {
       </header>
 
       <section id="inicio" className="hero container">
-        <div className="hero-copy"><p className="eyebrow"><span /> Tu trámite, en buenas manos</p><h1>Tu auto.<br /><em>En orden.</em></h1><p className="hero-lead">Gestoría del automotor y seguros pensados para que resuelvas todo con tranquilidad, claridad y acompañamiento real.</p><div className="hero-actions"><a className="button button-primary" href="#contacto">Quiero asesorarme <ArrowUpRight size={18} /></a><a className="text-link" href="#servicios">Conocé mis servicios <span>↓</span></a></div><div className="hero-proof"></div></div>
-        <div className="hero-visual"><div className="image-frame"><img src="/hero-automotor.png" alt="Profesional asesorando sobre trámites y seguros del automotor" /></div><div className="floating-note"><span className="note-icon"><Check size={15} /></span><span><strong>Gestión resuelta</strong><small>Simple. Segura. A tiempo.</small></span></div><div className="round-stamp">DESDE<br /><strong>1998</strong><br />CON VOS</div></div>
+        <div className="hero-copy"><p className="eyebrow"><span /> Tu trámite, en buenas manos</p><h1>Tu vehículo.<br /><em>En orden.</em></h1><p className="hero-lead">Gestoría y seguros para autos, motos y maquinarias, con la tranquilidad de contar con un equipo que te acompaña en cada paso.</p><div className="hero-actions"><a className="button button-primary" href="#contacto">Quiero asesorarme <ArrowUpRight size={18} /></a><a className="text-link" href="#servicios">Conocé mis servicios <span>↓</span></a></div><div className="hero-proof"></div></div>
+        <div className="hero-visual"><div className="image-frame"><img src="/hero-automotor.png" alt="Profesional asesorando sobre trámites y seguros del automotor" /></div><div className="floating-note"><span className="note-icon"><Check size={15} /></span><span><strong>Gestión resuelta</strong><small>Simple. Segura. A tiempo.</small></span></div><div className="round-stamp">DESDE<br /><strong>1997</strong><br />CON VOS</div></div>
       </section>
 
       <section className="trust-strip"><div className="container trust-inner"><span>UN ACOMPAÑAMIENTO QUE MARCA LA DIFERENCIA</span><div><span><Check size={15} /> Atención cercana</span><span><Check size={15} /> Gestión transparente</span><span><Check size={15} /> Respuesta rápida</span></div></div></section>

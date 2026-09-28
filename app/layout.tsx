@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Maria Belen Alvez | Gestoría del automotor y seguros',
-  description: 'Gestoría del automotor y venta de seguros con atención personalizada, clara y segura en Darregueira y alrededores.',
+  description: 'Gestoría del automotor y venta de seguros con atención personalizada, clara y segura.',
   generator: 'v0.app',
   icons: {
     icon: [

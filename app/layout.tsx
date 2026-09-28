@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Línea Clara | Gestoría del automotor y seguros',
-  description: 'Gestoría del automotor y seguros con atención personalizada, clara y segura en CABA y alrededores.',
+  title: 'Maria Belen Alvez | Gestoría del automotor y seguros',
+  description: 'Gestoría del automotor y venta de seguros con atención personalizada, clara y segura en Darregueira y alrededores.',
   generator: 'v0.app',
   icons: {
     icon: [

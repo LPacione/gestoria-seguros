@@ -55,7 +55,7 @@ export default function Page() {
       <div className="topbar"><span>Trámites en todo el país - Automotores, Motovehículos y Maquinarias</span><span className="topbar-contact"><Phone size={13} /> 2923 449859</span></div>
       <header className="nav-wrap">
         <nav className="nav container" aria-label="Navegación principal">
-          <a href="#inicio" className="brand" aria-label="Maria Belen Alvez inicio"><span className="brand-mark">MA</span><span><strong>Maria Belen Alvez</strong><small>Gestoría & Seguros</small></span></a>
+          <a href="#inicio" className="brand" aria-label="Maria Belen Alvez inicio"><span className="brand-mark">MBA</span><span><strong>Maria Belen Alvez</strong><small>Gestoría & Seguros</small></span></a>
           <button className="menu-toggle" aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</button>
           <div className={`nav-links ${menuOpen ? 'is-open' : ''}`}>
             <a href="#servicios" onClick={() => setMenuOpen(false)}>Servicios</a><a href="#como-trabajo" onClick={() => setMenuOpen(false)}>Cómo trabajo</a><a href="#preguntas" onClick={() => setMenuOpen(false)}>Preguntas</a><a className="nav-cta" href="#contacto" onClick={() => setMenuOpen(false)}>Hablemos <ArrowUpRight size={16} /></a>
@@ -77,7 +77,7 @@ export default function Page() {
       <section id="preguntas" className="faq-section container"><div><p className="eyebrow"><span /> Para tener en cuenta</p><h2>Preguntas<br /><em>frecuentes.</em></h2><p className="faq-intro">Si no encontrás lo que buscás, escribime. Siempre es mejor preguntar.</p></div><div className="faq-list">{faqs.map(([question, answer], index) => <div className={`faq-item ${openFaq === index ? 'active' : ''}`} key={question}><button onClick={() => setOpenFaq(openFaq === index ? null : index)} aria-expanded={openFaq === index}><span>{question}</span><ChevronDown size={20} /></button>{openFaq === index && <p>{answer}</p>}</div>)}</div></section>
 
       <section id="contacto" className="contact-section"><div className="container contact-inner"><div><p className="eyebrow light"><span /> ¿Hablamos?</p><h2>Tu próxima gestión<br /><em>empieza acá.</em></h2><p>Contame qué necesitás y te respondo a la brevedad.</p></div><div className="contact-details"><a href="https://wa.me/542923449859" className="contact-line"><span><Phone size={19} /></span><div><small>WhatsApp</small><strong>2923 449859</strong></div><ArrowUpRight /></a><a href="mailto:mariabelenalvez@hotmail.com" className="contact-line"><span><Mail size={19} /></span><div><small>Email</small><strong>mariabelenalvez@hotmail.com</strong></div><ArrowUpRight /></a><div className="contact-line"><span><MapPin size={19} /></span><div><small>Lugar de atención</small><strong>Dr. Rivkin 546</strong></div></div></div></div></section>
-      <footer className="footer container"><a href="#inicio" className="brand"><span className="brand-mark">MA</span><span><strong>Maria Belen Alvez</strong><small>Gestoría & Seguros</small></span></a><p>Gestiones que avanzan. Personas que acompañan.</p><div className="footer-social"></div></footer>
+      <footer className="footer container"><a href="#inicio" className="brand"><span className="brand-mark">MBA</span><span><strong>Maria Belen Alvez</strong><small>Gestoría & Seguros</small></span></a><p>Gestiones que avanzan. Personas que acompañan.</p><div className="footer-social"></div></footer>
     </main>
   )
 }

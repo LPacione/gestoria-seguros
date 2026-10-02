@@ -3,17 +3,26 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Maria Belen Alvez | Gestoría del automotor y seguros',
-  description: 'Gestoría del automotor y venta de seguros con atención personalizada, clara y segura.',
+  title: 'María Belén Alvez | Gestoría del Automotor y Seguros (Darregueira y todo el país)',
+  description: 'Gestoría del automotor, motovehículos, maquinarias y seguros en Darregueira y con atención en todo el país. Trámites rápidos, claros y seguros.',
+  keywords: ['gestoria', 'seguros', 'darregueira', 'automotor', 'maquinaria', 'transferencias', 'todo el pais', 'maria belen alvez'],
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon_jpg.jpg',
-        type: 'image/jpeg',
+        url: '/icon.ico',
+        type: 'image/x-icon',
       },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    title: 'María Belén Alvez | Gestoría y Seguros',
+    description: 'Gestoría del automotor, motovehículos, maquinarias y seguros en Darregueira y todo el país.',
+    url: 'https://mariabelenalvez.com.ar',
+    siteName: 'María Belén Alvez',
+    locale: 'es_AR',
+    type: 'website',
   },
 }
 
